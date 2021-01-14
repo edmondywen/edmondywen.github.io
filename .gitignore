@@ -1,2 +1,3 @@
-brainstorming.docx
+*.docx
 personal-website.code-workspace
+.jekyll-cache
