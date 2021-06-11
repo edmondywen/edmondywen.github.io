@@ -1,0 +1,18 @@
+
+h1{
+    text-align: center;
+}
+
+@font-face {
+    font-family: merriweather, serif;
+    src: url(https://use.typekit.net/zwn2vse.css);
+}
+
+p{
+    color: black;
+    font-family: merriweather;
+}
+
+body{
+    background-color: rgba(224, 224, 224);
+}
