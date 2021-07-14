@@ -13,6 +13,51 @@ body{
     background-color: rgba(224, 224, 224);
 }
 
+#navbar{
+    display: flex;
+    background-color: rgba(70, 69, 69);
+    justify-content: flex-start;  
+}
+
+.navbar-text{
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+/* last from the left */
+#last-navbar-text{
+    display: flex;
+    margin-right: auto;
+}
+
+.navbar-img{
+    display: flex;
+    height: 3vw;
+    /* background: #CCC8C8; */
+    margin-left: 3vh;
+    /* margin-right: 3vh;  */
+}
+
+/* last from the right */
+#last-navbar-img{
+    display: flex;
+    margin-left: auto;
+}
+
+.flex-container{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.grid-container{
+    background-color: blue;
+    display: grid;
+}
+
 /* fonts */
 @font-face {
     font-family: merriweather, serif;
