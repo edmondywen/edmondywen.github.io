@@ -14,11 +14,12 @@ p{
 }
 
 body{
-    background-color: #DCDCDC;
+    /* background-color: #DCDCDC; */
     display: flex;
     flex-direction: column;
-    justify-content:    center;
+    justify-content: center;
     height: 100vh;
+    margin: 0;
 }
 
 a{
@@ -32,15 +33,46 @@ a:hover{
 /* NAVBAR */
 #navbar{
     display: flex;
-    justify-content: center;  
-    margin-top: calc(1px + 1vh);
-    margin-bottom: calc(1px + 1vh);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: calc(1px + 1vh);
+    border-right: 4px solid;
+    height: 100%;
+    width: 25%;
+    background-color: #F29200;
+    /* align-self: start; */
+}
+
+#navbar>h1{
+    display: flex;
+    /* padding: calc(10px + 0.5vw); */
+    font-size: calc(20px + 0.5vw);
+    margin: calc(10px + 0.5vw);
+    border-bottom: 2px black solid;
+}
+
+#navbar>a>p{
+    display: flex;
+    /* padding: calc(10px + 0.5vw); */
+    font-size: calc(20px + 0.5vw);
+    margin: calc(10px + 0.5vw);
 }
 
 .navbar-text{
     display: flex;
-    margin-left: calc(5px + 0.5vw);
-    margin-right: calc(5px + 0.5vw);
+    /* padding: calc(10px + 0.5vw); */
+    font-size: calc(20px + 0.5vw);
+    margin: calc(10px + 0.5vw);
+}
+
+.navbar-image{
+    border-radius: 50%;
+    border: black solid 4px;
+    /* border-width: 2px; */
+    height: 300px;
+    width: 300px;
+    margin: calc(10px + 0.5vw);
 }
 
 /* MAIN TEXT AREA */
@@ -48,11 +80,20 @@ a:hover{
     /* position: fixed;
     left: 50%;
     top: 50%; */
+    height: 100%;
+    width: 100%;
     font-family: merriweather;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+}
+
+.transition-fade {
+    transition: 0.2s;
+    opacity: 1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
 }
 
 
