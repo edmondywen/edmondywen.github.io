@@ -57,11 +57,27 @@ a:hover{
 }
 
 .musing-post {
-    padding-top: 1.5vh;
     max-width: 50vw;
 }
 
 p{
     max-width: 50vw;
     line-height: 1.75em;
+}
+
+table{
+    margin-top: 2vh;
+}
+
+table#plant-table > tbody > tr > td {
+    padding: 0 15px 0 0;
+}
+
+caption{
+    caption-side: bottom;
+}
+
+.back-button{
+    margin-bottom: 1.5vh;
+    display: inline-block;
 }
