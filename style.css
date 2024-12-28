@@ -63,6 +63,10 @@ a:hover{
     border-bottom-width: 2px;
 }
 
+#musing-post-template{
+    visibility: hidden;
+}
+
 p{
     max-width: 50vw;
     line-height: 1.75em;
