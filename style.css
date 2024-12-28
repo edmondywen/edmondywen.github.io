@@ -63,6 +63,16 @@ a:hover{
     border-bottom-width: 2px;
 }
 
+.musing-post:hover {
+    cursor: pointer;
+    background-color: #ffffc5;
+}
+
+.musing-content{
+    max-height: 0px;
+    overflow: hidden;
+}
+
 #musing-post-template{
     visibility: hidden;
 }
