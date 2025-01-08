@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Edmond Wen's Personal Website</title>
+        <title>Edmond Wen</title>
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="https://use.typekit.net/zwn2vse.css">
         <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
@@ -12,6 +12,44 @@
         <div id="musings">
             <h1>musings</h1>
             <a href="index.html" class="back-button"> < go back </a>
+            <p>days since last musing post: feature TBD</p>
+            <div id="musing-buttons">
+                <button id="open-all-musing-button" style="margin-right: 30px">Open All Musings</button>
+                <button id="random-musing-button" style="margin-right: 30px">Open a Random Musing</button>
+                <button id="close-all-musing-button">Close All Musings</button>
+            </div>
+            <div class="musing-post">
+                <h2>jan 8 / new year, new york city</h2>
+                <div class="musing-content">
+                    <p>
+                        I read an excellent blog post today titled <a href="https://simonwillison.net/2024/Jan/2/escalating-streaks/">"Tom Scott, and the formidable power of escalating streaks"</a> written by Simon Willison.
+                        It's a quick read and I highly recommend checking it out, but in effect, the post discusses the power of using streaks for self-improvement. To get good at anything, one needs to perform that thing regularly,
+                        and thoughtfully with the goal of improving at it marginally each time. This is well-known, but the key takeaway for me was the importance of using a streak with <strong>leniancy</strong> built in.
+                        For example, instead of setting a goal of running 1 mile each day, a more flexible but still well-defined goal would be to run 1 mile for 4/7 days of the week.
+                    </p>
+
+                    <p>
+                        Since moving to New York, I've already accomplished a few things that I'm proud of. I've started regularly attending social events for chess and melee. I've been reaching out to both old and new friends,
+                        expanding my social circle and skills. However, I feel that I can still do more. I feel as if I'm plateauing with many of my hobbies and have begun to accept mediocrity. For example, I go to the gym regularly
+                        but haven't pushed myself to go more than 2-3 times a week, especially in the mornings. I'm leaving a lot of progress on the table as a result. To push myself, I will declare and document my streaks more visibly
+                        on this page.
+                    </p>
+
+                    <ol>
+                        <li>
+                            Update this page 3 times per week. An update can be very minimal. Benefits: Github square :star eyes:, improve web dev skills, improve writing, outlet for other creative projects like photography. accountable
+                            using github activity.
+                        </li>
+                        <li>
+                            Gym 4 times a week. Why: I want to be stronger and maintain good health, feels good mentally. I go 2-3 times per week right now.
+                        </li>
+                        <li>
+                            arrive at the office by 10am consistently. 4/5 days of the week.
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
 
             <div class="musing-post">
                 <h2>december 28 / berlin</h2>
@@ -76,8 +114,10 @@
             </div>
             <div class="musing-post" id="musing-post-template">
                 <h2></h2>
-                <p>
-                </p>
+                <div class="musing-content">
+                    <p>
+                    </p>
+                </div>
             </div>
         </div>
     </body>
