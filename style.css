@@ -25,6 +25,10 @@ body{
     /* height: 100vh; */
 }
 
+li {
+    margin: 10px 0;
+}
+
 #landing-left{
     box-sizing: border-box;
     /* padding-left: 20vh; */
@@ -143,5 +147,5 @@ button:hover:after {
 }
 
 #musing-buttons {
-    margin: 1vh 0 3vh 0;
+    margin: 1vh 0 4vh 0;
 }
